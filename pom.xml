@@ -1,7 +1,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>SE-FP</groupId>
-  <artifactId>SE-FP</artifactId>
+  <groupId>SoftwareEngineering-FinalProject</groupId>
+  <properties>
+  <sonar.organization>aishwaryanag</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+</properties>
+  <artifactId>testt</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
   <build>
@@ -10,7 +14,7 @@
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.8.1</version>
         <configuration>
-          <release>19</release>
+          <release>18</release>
         </configuration>
       </plugin>
       <plugin>
@@ -19,4 +23,5 @@
       </plugin>
     </plugins>
   </build>
+  
 </project>
