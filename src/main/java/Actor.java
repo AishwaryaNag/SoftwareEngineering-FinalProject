@@ -1,15 +1,15 @@
-public class Actor {
 
-	private string actorID;
-	private string role;
-	private string competence;
-	private string location;
+public class Actor {
+	private String actorID;
+	private String role;
+	private String competence;
+	private String location;
 
 	/**
 	 * 
 	 * @param actionDetails
 	 */
-	public any performAction(any actionDetails) {
+	public void performAction(String actionDetails) {
 		// TODO - implement Actor.performAction
 		throw new UnsupportedOperationException();
 	}
@@ -27,7 +27,7 @@ public class Actor {
 	 * 
 	 * @param statusDetails
 	 */
-	public void reportStatus(any statusDetails) {
+	public void reportStatus(String statusDetails) {
 		// TODO - implement Actor.reportStatus
 		throw new UnsupportedOperationException();
 	}
@@ -36,9 +36,8 @@ public class Actor {
 	 * 
 	 * @param supportType
 	 */
-	public any requestSupport(String supportType) {
+	public void requestSupport(String supportType) {
 		// TODO - implement Actor.requestSupport
 		throw new UnsupportedOperationException();
 	}
-
 }

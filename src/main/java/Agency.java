@@ -1,16 +1,16 @@
-public class Agency {
 
-	private string agencyID;
-	private string name;
-	private string location;
-	private string contactInfo;
+public class Agency {
+	private String agencyID;
+	private String name;
+	private String location;
+	private String contactInfo;
 	private float operationalBudget;
 
 	/**
 	 * 
 	 * @param emergencyID
 	 */
-	public any coordinateResponse(string emergencyID) {
+	public void coordinateResponse(String emergencyID) {
 		// TODO - implement Agency.coordinateResponse
 		throw new UnsupportedOperationException();
 	}
@@ -19,7 +19,7 @@ public class Agency {
 	 * 
 	 * @param newInfo
 	 */
-	public void updateAgencyInfo(any newInfo) {
+	public void updateAgencyInfo(String newInfo) {
 		// TODO - implement Agency.updateAgencyInfo
 		throw new UnsupportedOperationException();
 	}
@@ -28,7 +28,7 @@ public class Agency {
 	 * 
 	 * @param reportType
 	 */
-	public any generateReport(string reportType) {
+	public void generateReport(String reportType) {
 		// TODO - implement Agency.generateReport
 		throw new UnsupportedOperationException();
 	}
